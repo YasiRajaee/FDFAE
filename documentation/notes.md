@@ -5,15 +5,20 @@
 - [Feature Agglomeration Networks for Single Stage Face Detection](https://arxiv.org/pdf/1712.00721.pdf)
 
 - [SSH: Single Stage Headless Face Detector](http://openaccess.thecvf.com/content_ICCV_2017/papers/Najibi_SSH_Single_Stage_ICCV_2017_paper.pdf)
+  - [Caffe](https://github.com/sfzhang15/SFD)
 
-  - [Caffe implementation](https://github.com/sfzhang15/SFD)
 
 - [S3FD: Single Shot Scale-invariant Face Detector](https://arxiv.org/pdf/1708.05237.pdf)
 
 ## Facial Attribute Editing
 
+- [Fader Networks: Manipulating Images by Sliding Attributes](Fader Networks: Manipulating Images by Sliding Attributes)
+  - [Tensorflow](https://github.com/hardikbansal/Fader-Networks-Tensorflow)
+  - [PyTorch](https://github.com/facebookresearch/FaderNetworks)
+
+
 - [ADVERSARIALLY LEARNED INFERENCE](https://arxiv.org/pdf/1606.00704.pdf)
-  -  [Keras implementation](https://github.com/tatsy/keras-generative/blob/master/models/ali.py)
+  - [Keras](https://github.com/tatsy/keras-generative/blob/master/models/ali.py)
 
 ## Object Detection
 
