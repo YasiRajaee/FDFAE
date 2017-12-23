@@ -20,11 +20,21 @@
 - [ADVERSARIALLY LEARNED INFERENCE](https://arxiv.org/pdf/1606.00704.pdf)
   - [Keras](https://github.com/tatsy/keras-generative/blob/master/models/ali.py)
 
+- [Arbitrary Facial Attribute Editing: Only Change What You Want](https://arxiv.org/pdf/1711.10678.pdf)
+
+-
+
 ## Object Detection
 
 - [SSD](https://arxiv.org/pdf/1512.02325.pdf)
 
 - [YOLO9000](https://arxiv.org/pdf/1612.08242.pdf)
+
+## Other Useful Papers
+
+- [ADVERSARIAL FEATURE LEARNING](https://arxiv.org/pdf/1605.09782.pdf)
+
+
 
 ## Useful Links
 
