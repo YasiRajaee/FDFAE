@@ -1,3 +1,0 @@
-[submodule "src/detection/models"]
-	path = src/detection/models
-	url = https://github.com/tensorflow/models.git
