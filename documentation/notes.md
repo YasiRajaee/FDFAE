@@ -45,6 +45,10 @@
 - [YOLO9000](https://arxiv.org/pdf/1612.08242.pdf)
   - [Keras](https://github.com/experiencor/basic-yolo-keras)
 
+- [Tensorflow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection)
+
+
+
 ## Other Useful Papers
 
 - [ADVERSARIAL FEATURE LEARNING](https://arxiv.org/pdf/1605.09782.pdf)
