@@ -17,7 +17,7 @@
 
 ## Facial Attribute Editing
 
-- [Fader Networks: Manipulating Images by Sliding Attributes](Fader Networks: Manipulating Images by Sliding Attributes)
+- [Fader Networks: Manipulating Images by Sliding Attributes](https://arxiv.org/pdf/1706.00409.pdf)
   - [Tensorflow](https://github.com/hardikbansal/Fader-Networks-Tensorflow)
   - [PyTorch](https://github.com/facebookresearch/FaderNetworks)
 
