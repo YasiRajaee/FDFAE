@@ -1,0 +1,3 @@
+[submodule "tf_api"]
+	path = src/detection/models
+	url = https://github.com/YasamanRa/models.git

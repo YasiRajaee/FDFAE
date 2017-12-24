@@ -10,7 +10,6 @@ import cv2
 
 
 def create_tf_example(example):
-  # TODO(user): Populate the following variables from your example.
 
   filename = example['image_id'] # Filename of the image. Empty if image is not from file
   filepath = '../data/img_celeba/' + filename
