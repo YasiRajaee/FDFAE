@@ -1,3 +1,6 @@
 [submodule "tf_api"]
 	path = src/detection/models
 	url = https://github.com/YasamanRa/models.git
+[submodule "src/editing/Fader-Networks-Tensorflow"]
+	path = src/editing/Fader-Networks-Tensorflow
+	url = https://github.com/YasamanRa/Fader-Networks-Tensorflow.git
