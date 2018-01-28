@@ -55,16 +55,9 @@ if __name__ == '__main__':
     # Test settings
     parser.add_argument('--test_model', type=str, default='20_1000')
 
-    # Misc
-    parser.add_argument('--mode', type=str, default='test', choices=['train', 'test'])
     # Path
-    parser.add_argument('--celebA_image_path', type=str, default='./data/CelebA_nocrop/images')
-    parser.add_argument('--log_path', type=str, default='./stargan/logs')
-    parser.add_argument('--model_save_path', type=str, default='./stargan_celebA/models')
-    parser.add_argument('--result_path', type=str, default='./stargan_celebA/results')
-
-    # Step size
-    parser.add_argument('--model_save_step', type=int, default=1000)
+    parser.add_argument('--model_save_path', type=str, default='./models') #model path, needed
+    parser.add_argument('--result_path', type=str, default='./')
 
 
     config = parser.parse_args()
@@ -78,8 +71,6 @@ if __name__ == '__main__':
     # Path
     model_save_path = config.model_save_path
     result_path = config.result_path
-
-    model_save_step = config.model_save_step    # Step size
 
     # Build tensorboard if use
     G = build_model(config)
