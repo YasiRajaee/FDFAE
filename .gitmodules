@@ -4,3 +4,6 @@
 [submodule "src/editing/Fader-Networks-Tensorflow"]
 	path = src/editing/Fader-Networks-Tensorflow
 	url = https://github.com/YasamanRa/Fader-Networks-Tensorflow.git
+[submodule "src/editing/FaderNetworks"]
+	path = src/editing/FaderNetworks
+	url = https://github.com/facebookresearch/FaderNetworks
