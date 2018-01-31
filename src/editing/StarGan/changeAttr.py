@@ -88,17 +88,19 @@ if __name__ == '__main__':
             transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))])
     #
     #image = transform(Image.open("./data/CelebA_nocrop/images/000001.jpg"))
-    image = transform(Image.open("./photo3.jpg"))
+    image = transform(Image.open('/home/yasamanrajaee/ssd_detector/FDFAE/data/input/celebA/img_align_celeba/000001.jpg'))
     image = image.unsqueeze(0)
-    label = torch.FloatTensor([[0,1,0,0,0]]) #Black, blonde, brown, man, young
-    data_loader = [(image, label)]
+    label_src = torch.FloatTensor([[0,0,1,1,0]]) #Black, blonde, brown, man, young
+    label_target = torch.FloatTensor([[0,1,0,1,1]]) #Black, blonde, brown, man, young
+
+    data_loader = [(image, label_src)]
 
     for i, (real_x, org_c) in enumerate(data_loader): #celebA_loader
         print(real_x.type)
         real_x = to_var(real_x, volatile=True)
         print(org_c.type)
         #target_c_list = make_celeb_labels(org_c)
-        target_c_list = [to_var(label, volatile=True)]
+        target_c_list = [to_var(label_target, volatile=True)]
 
         # Start translations
         fake_image_list = [real_x]
